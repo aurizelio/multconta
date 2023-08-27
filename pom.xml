@@ -10,12 +10,11 @@
 	</parent>
 	<groupId>br.com.amulti</groupId>
 	<artifactId>gestao</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>gestao</name>
 	<description>Projeto multidisciplinaridade para saúde </description>
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
@@ -80,16 +79,6 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version> // replace the maven version number
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-					<verbose>true</verbose>
 				</configuration>
 			</plugin>
 		</plugins>
