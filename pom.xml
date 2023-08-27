@@ -14,8 +14,10 @@
 	<name>gestao</name>
 	<description>Projeto multidisciplinaridade para saúde </description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
+
+
 
 	<dependencies>
 		<dependency>
@@ -91,6 +93,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
+
 
 </project>
